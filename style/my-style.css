@@ -2589,7 +2589,6 @@ section{
     text-align: center;
     letter-spacing: -0.48px;
     line-height: 70.6px;
-    white-space: nowrap;
 }
 
 .frame-127 {
@@ -3065,3 +3064,37 @@ section{
 /*============================
         section 7 end
 ============================*/
+
+
+.frame-150 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.frame-44 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 2px solid;
+    border-color: #ffffff0d;
+    backdrop-filter: blur(135.91px) brightness(100%);
+    -webkit-backdrop-filter: blur(135.91px) brightness(100%);
+}
+.frame-157 {
+    display: flex;
+    gap: 41px;
+    position: relative;
+    flex: 0 0 auto;
+}

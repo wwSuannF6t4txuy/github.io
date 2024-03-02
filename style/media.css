@@ -1341,6 +1341,8 @@
         border-radius: 2.42vw; /* 30px / 1240px * 100 */
     }
 
+
+
     .frame-126 {
         display: flex;
         flex-direction: column;
@@ -1658,6 +1660,13 @@
     .group-29{
         text-align: center;
     }
+    .frame-140{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .frame-141{
+        width: 100%;
+    }
 
 }
 
@@ -1759,10 +1768,17 @@
         gap: 0.85vw;
         /*top: 6.59vw;*/
     }
+    .text-wrapper-67, .grow-your-business{
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        max-width: 70%;
+    }
     .grow-your-business {
         margin-top: -0.12vw;
-        font-size: 3.9vw;
     }
+
 
 
 
@@ -1932,6 +1948,28 @@
         width: 100%;
         max-width: 96px;
         height: 96px;
+    }
+    .group-37 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .frame-143{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .frame-40{
+        height: auto;
+    }
+    .section-6{
+        gap: 25px;
+    }
+    .text-wrapper-69{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px; /* 118.182% */
+        letter-spacing: -0.22px;
     }
 }
 
@@ -2177,6 +2215,12 @@
     }
     .frame-121 {
         gap: 5.85vw;
+    }
+
+    .frame-125 {
+        width: 87.77vw;
+        gap: 3.87vw;
+        padding: 8.84vw 2.45vw;
     }
 
 }
