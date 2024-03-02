@@ -1,0 +1,2182 @@
+@media screen and (min-width: 991px){
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 15px 60px;
+        position: relative;
+        flex: 0 0 auto;
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 56px;
+        gap: 5px;
+        margin: 0 auto;
+    }
+
+    .navbar-item {
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .navbar-item a{
+        font-family: var(--regular-semi-14-font-family);
+        font-weight: var(--regular-semi-14-font-weight);
+        color: var(--designtexttitle);
+        font-size: var(--regular-semi-14-font-size);
+        letter-spacing: var(--regular-semi-14-letter-spacing);
+        line-height: var(--regular-semi-14-line-height);
+        white-space: nowrap;
+        font-style: var(--regular-semi-14-font-style);
+        transition: .2s;
+    }
+    .navbar-item a:hover{
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+@media screen and (max-width: 1240px){
+    .section-top{
+        padding: 40px 25px 0;
+    }
+    .section{
+        padding: 70px 25px;
+    }
+
+    /*dd section 3*/
+    .frame-84 {
+        display: flex;
+        align-items: flex-start;
+        gap: 4.11vw; /* Converted */
+        padding: 1.69vw 4.19vw; /* Converted */
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        background-color: var(--designprimary-60);
+        border-radius: 2.42vw; /* Converted */
+    }
+
+    .frame-85 {
+        position: relative;
+        width: 11.13vw; /* Converted */
+        height: 9.27vw; /* Converted */
+    }
+
+    .element-photoroom {
+        position: absolute;
+        width: 9.76vw; /* Converted */
+        height: 8.47vw; /* Converted */
+        top: 0.16vw; /* Converted */
+        left: 0.65vw; /* Converted */
+    }
+
+    .line {
+        position: relative;
+        width: 0.08vw; /* Converted */
+        height: 9.35vw; /* Converted */
+        margin-top: -0.04vw; /* Adjusted for conversion */
+        margin-bottom: -0.04vw; /* Adjusted for conversion */
+        object-fit: cover;
+    }
+
+    .element-photoroom-2 {
+        position: absolute;
+        width: 7.18vw; /* Converted */
+        height: 8.47vw; /* Converted */
+        top: 0.40vw; /* Converted */
+        left: 2.02vw; /* Converted */
+    }
+
+    .cvb {
+        position: absolute;
+        width: 6.94vw; /* Converted */
+        height: 8.95vw; /* Converted */
+        top: 0.32vw; /* Converted */
+        left: 2.02vw; /* Converted */
+    }
+
+    .element-photoroom-3 {
+        position: absolute;
+        width: 7.66vw; /* Converted */
+        height: 8.47vw; /* Converted */
+        top: 0.40vw; /* Converted */
+        left: 1.77vw; /* Converted */
+    }
+
+    .element-photoroom-4 {
+        position: absolute;
+        width: 6.05vw; /* Converted */
+        height: 8.47vw; /* Converted */
+        top: 0.40vw; /* Converted */
+        left: 2.50vw; /* Converted */
+    }
+
+    .frame-86 {
+        position: relative;
+        width: 96.77vw; /* Converted */
+        height: 53.71vw; /* Converted */
+        background-color: #ffffff;
+    }
+
+    .overlap-group-11 {
+        position: relative;
+        width: 91.21vw; /* Converted */
+        height: 53.71vw; /* Converted */
+        left: 2.74vw; /* Converted */
+    }
+
+   .vector-4 {
+       position: absolute;
+       width: 13.47vw;
+       height: 21.29vw;
+       top: 21.13vw;
+       left: 45.73vw;
+   }
+
+    .vector-5 {
+        position: absolute;
+        width: 26.85vw;
+        height: 21.29vw;
+        top: 21.13vw;
+        left: 45.65vw;
+    }
+
+    .vector-6 {
+        position: absolute;
+        width: 13.55vw;
+        height: 12.5vw;
+        top: 30.97vw;
+        left: 72.1vw;
+    }
+
+    .vector-7 {
+        position: absolute;
+        width: 13.55vw;
+        height: 21.29vw;
+        top: 21.13vw;
+        left: 32.02vw;
+    }
+
+    .vector-8 {
+        position: absolute;
+        width: 26.69vw;
+        height: 21.29vw;
+        top: 21.13vw;
+        left: 18.79vw;
+    }
+
+    .vector-9 {
+        position: absolute;
+        width: 13.55vw;
+        height: 14.44vw;
+        top: 30.89vw;
+        left: 5.48vw;
+    }
+
+    .vector-10 {
+        position: absolute;
+        width: 13.06vw;
+        height: 21.29vw;
+        top: 21.37vw;
+        left: 45.89vw;
+    }
+
+    .vector-11 {
+        position: absolute;
+        width: 26.53vw;
+        height: 21.29vw;
+        top: 21.37vw;
+        left: 45.65vw;
+    }
+
+    .vector-12 {
+        position: absolute;
+        width: 14.35vw;
+        height: 12.74vw;
+        top: 31.13vw;
+        left: 71.05vw;
+    }
+
+    .app-icon-2 {
+        position: absolute;
+        width: 12.5vw;
+        height: 12.5vw;
+        top: 5.56vw;
+        left: 39.35vw;
+    }
+
+    .vector-13 {
+        position: absolute;
+        width: 23.47vw;
+        height: 0.65vw;
+        top: 11.53vw;
+        left: 15.89vw;
+    }
+
+    .vector-14 {
+        position: absolute;
+        width: 0.65vw;
+        height: 24.35vw;
+        top: 17.98vw;
+        left: 45.32vw;
+    }
+
+    .vector-15 {
+        position: absolute;
+        width: 22.74vw;
+        height: 0.65vw;
+        top: 11.53vw;
+        left: 51.77vw;
+    }
+
+    .vector-16 {
+        position: absolute;
+        width: 23.55vw;
+        height: 0.08vw;
+        top: 11.77vw;
+        left: 15.97vw;
+    }
+
+    .vector-17 {
+        position: absolute;
+        width: 0.08vw;
+        height: 24.92vw;
+        top: 17.5vw;
+        left: 45.56vw;
+    }
+
+    .frame-87 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw;
+        height: 11.61vw;
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw;
+        padding: 1.43vw 1.25vw 1.79vw; /* Assuming the same padding for left/right */
+        position: absolute;
+        top: 5.97vw;
+        left: 6.21vw;
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw;
+    }
+
+    .img-8 {
+        position: relative;
+        width: 3.05vw;
+        height: 3.05vw;
+    }
+
+    .text-wrapper-45 {
+        width: 6.31vw;
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        font-size: 1.44vw;
+        line-height: 2.15vw;
+        position: relative;
+        color: var(--designtexttitle);
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .frame-88 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* Converted */
+        height: 11.61vw; /* Converted */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* Converted */
+        padding: 1.43vw 1.25vw 1.79vw; /* Converted, assuming the same padding for left/right */
+        position: absolute;
+        top: 5.97vw; /* Converted */
+        left: 19.44vw; /* Converted */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* Converted */
+    }
+
+    .vector-18 {
+        position: absolute;
+        width: 22.82vw; /* Converted */
+        height: 0.08vw; /* Converted */
+        top: 11.77vw; /* Converted */
+        left: 51.77vw; /* Converted */
+    }
+
+    .ellipse-6, .ellipse-7, .ellipse-8, /* Applying the same dimensions to all ellipses for simplicity */
+    .ellipse-9, .ellipse-10, .ellipse-11,
+    .ellipse-12, .ellipse-13, .ellipse-14,
+    .ellipse-15, .ellipse-16, .ellipse-17,
+    .ellipse-18, .ellipse-19, .ellipse-20,
+    .ellipse-21, .ellipse-22, .ellipse-23,
+    .ellipse-24, .ellipse-25, .ellipse-26,
+    .ellipse-27, .ellipse-28, .ellipse-29 {
+        width: 1.37vw; /* Converted */
+        height: 1.37vw; /* Converted */
+        /* Each ellipse will have its specific top and left values converted separately */
+    }
+
+    /* Example conversion for a specific ellipse */
+    .ellipse-6 {
+        position: absolute;
+        top: 11.05vw; /* Converted */
+        left: 38.63vw; /* Converted */
+        background-color: var(--designprimary-100);
+        border-radius: 0.67vw; /* Converted */
+        border: 0.27vw solid; /* Converted */
+        border-color: #ffffff;
+        box-shadow: 0px 0.27vw 0.54vw #05254214; /* Approximation */
+    }
+    .ellipse-7 {
+        position: absolute;
+        top: 11.13vw; /* Converted from 138px */
+        left: 51.13vw; /* Converted from 634px */
+        background-color: var(--designprimary-100);
+        border-radius: 0.67vw; /* Converted from 8.33px */
+        border: 0.27vw solid; /* Converted from 3.33px */
+        border-color: #ffffff;
+        box-shadow: 0 0.27vw 0.54vw #05254214; /* Approximation for box-shadow conversion */
+    }
+
+    .frame-89 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* Converted */
+        height: 11.61vw; /* Converted */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* Converted */
+        padding: 1.43vw 1.25vw 1.79vw; /* Converted, assuming the same for left/right */
+        position: absolute;
+        top: 5.97vw; /* Converted */
+        left: 60.24vw; /* Converted */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* Converted */
+    }
+
+    .noun-old {
+        position: relative;
+        width: 3.05vw; /* Converted */
+        height: 3.05vw; /* Converted */
+        overflow: hidden;
+    }
+
+    .group-16 {
+        position: absolute;
+        width: 1.45vw; /* Converted */
+        height: 2.58vw; /* Converted */
+        top: 0.24vw; /* Converted */
+        left: 0.81vw; /* Converted */
+    }
+
+    .text-wrapper-46 {
+        position: absolute;
+        width: 12.18vw; /* Converted */
+        top: 5.24vw; /* Converted */
+        left: 0; /* Depending on design, may not need conversion */
+        font-family: "Helvetica Neue-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--designtexttitle);
+        font-size: 1.19vw; /* Converted */
+        letter-spacing: 0; /* Depending on design */
+        line-height: normal; /* Depending on design */
+        white-space: nowrap;
+    }
+
+    .text-wrapper-47 {
+        position: absolute;
+        width: 15.65vw; /* 194px to vw */
+        top: 6.69vw; /* 83px to vw */
+        font-size: 1.19vw; /* 14.8px to vw */
+        left: 0;
+        font-family: "Helvetica Neue-Bold", Helvetica;
+        font-weight: 700;
+        color: var(--designtexttitle);
+        letter-spacing: 0;
+        line-height: normal; /* Consider adjusting if necessary */
+        white-space: nowrap;
+    }
+
+    .text-wrapper-48 {
+        position: relative;
+        width: 6.72vw; /* 83.33px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .ellipse-9 {
+        position: absolute;
+        width: 0.89vw; /* 11px to vw */
+        height: 0.89vw; /* 11px to vw */
+        top: 11.37vw; /* 141px to vw */
+        left: 59.76vw; /* 741px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.45vw; /* 5.56px to vw */
+        border: 0.18vw solid; /* 2.22px to vw */
+        border-color: #ffffff;
+        box-shadow: 0 0.18vw 0.36vw #05254214; /* Approximation for box-shadow conversion */
+    }
+
+    .vector-19 {
+        position: absolute;
+        width: 13.55vw; /* 168px to vw */
+        height: 21.05vw; /* 261px to vw */
+        top: 21.37vw; /* 265px to vw */
+        left: 32.34vw; /* 401px to vw */
+    }
+
+    .vector-20 {
+        position: absolute;
+        width: 26.94vw; /* 334px to vw */
+        height: 21.29vw; /* 264px to vw */
+        top: 21.37vw; /* 265px to vw */
+        left: 19.03vw; /* 236px to vw */
+    }
+
+    .vector-21 {
+        position: absolute;
+        width: 13.23vw; /* 164px to vw */
+        height: 13.79vw; /* 171px to vw */
+        top: 31.13vw; /* 386px to vw */
+        left: 5.81vw; /* 72px to vw */
+    }
+
+    .ellipse-10 {
+        position: absolute;
+        width: 0.89vw; /* 11px to vw */
+        height: 0.89vw; /* 11px to vw */
+        top: 20.97vw; /* 260px to vw */
+        left: 45.16vw; /* 560px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.45vw; /* 5.56px to vw */
+        border: 0.18vw solid; /* 2.22px to vw */
+        border-color: #ffffff;
+        box-shadow: 0 0.18vw 0.36vw #05254214; /* Approximation for box-shadow conversion */
+    }
+
+    .frame-90 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 25.32vw; /* 314px to vw */
+        left: 13.23vw; /* 164px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .text-wrapper-49 {
+        position: relative;
+        width: 4.93vw; /* 61.11px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-91 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 25.32vw; /* 314px to vw */
+        left: 26.53vw; /* 329px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .text-wrapper-50 {
+        position: relative;
+        width: 7.76vw; /* 96.35px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-92 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 25.32vw; /* 314px to vw */
+        left: 39.76vw; /* 493px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .frame-93 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 25.32vw; /* 314px to vw */
+        left: 53.06vw; /* 658px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .frame-94 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 25.32vw; /* 314px to vw */
+        left: 66.29vw; /* 822px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .text-wrapper-51 {
+        position: relative;
+        width: 7.17vw; /* 88.89px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-95 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* Converted from 144px */
+        height: 11.61vw; /* Converted from 144px */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* Converted from 8.89px */
+        padding: 1.43vw 1.25vw 1.79vw; /* Converted from 17.78px 15.56px 22.22px */
+        position: absolute;
+        top: 5.97vw; /* Converted from 74px */
+        left: 73.47vw; /* Converted from 911px */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* Converted from 17.78px */
+    }
+
+    .baby-sleep-breathing {
+        position: relative;
+        width: 9.32vw; /* Converted from 115.56px */
+        margin-left: -0.09vw; /* Converted from -1.11px */
+        margin-right: -0.09vw; /* Converted from -1.11px */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* Converted from 17.8px */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* Converted from 26.7px */
+    }
+
+
+    .ellipse-8 {
+        position: absolute;
+        width: 1.37vw; /* 17px to vw */
+        height: 1.37vw; /* 17px to vw */
+        top: 17.34vw; /* 215px to vw */
+        left: 44.92vw; /* 557px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.67vw; /* 8.33px to vw */
+        border: 0.27vw solid; /* 3.33px to vw */
+        border-color: #ffffff;
+        box-shadow: 0 0.27vw 0.54vw #05254214;
+    }
+
+    .ellipse-11, .ellipse-12, .ellipse-13, .ellipse-14, .ellipse-15, .ellipse-16 {
+        width: 0.89vw; /* Converted from 11px */
+        height: 0.89vw; /* Converted from 11px */
+        background-color: var(--designprimary-100);
+        border-radius: 0.45vw; /* Converted from 5.56px */
+        border: 0.18vw solid; /* Converted from 2.22px */
+        border-color: #ffffff;
+        box-shadow: 0px 0.18vw 0.36vw #05254214; /* Approximation for box-shadow conversion */
+    }
+
+    /* Individual positioning for each ellipse */
+    .ellipse-11 {
+        top: 24.92vw; /* Converted from 309px */
+        left: 31.94vw; /* Converted from 396px */
+    }
+
+    .ellipse-12 {
+        top: 30.73vw; /* Converted from 381px */
+        left: 13.06vw; /* Converted from 162px */
+    }
+
+    .ellipse-13 {
+        top: 30.73vw; /* Converted from 381px */
+        left: 77.42vw; /* Converted from 960px */
+    }
+
+    .ellipse-14 {
+        top: 24.92vw; /* Converted from 309px */
+        left: 18.63vw; /* Converted from 231px */
+    }
+
+    .ellipse-15 {
+        top: 11.37vw; /* Converted from 141px */
+        left: 30.65vw; /* Converted from 380px */
+    }
+
+    .ellipse-16 {
+        top: 11.37vw; /* Converted from 141px */
+        left: 17.42vw; /* Converted from 216px */
+    }
+
+    .ellipse-17, .ellipse-18, .ellipse-19, .ellipse-20 {
+        position: absolute;
+        width: 0.89vw; /* 11px to vw */
+        height: 0.89vw; /* 11px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.45vw; /* 5.56px to vw */
+        border: 0.18vw solid; /* 2.22px to vw */
+        border-color: #ffffff;
+        box-shadow: 0px 0.18vw 0.36vw #05254214;
+    }
+
+    .ellipse-17 {
+        top: 24.92vw; /* 309px to vw */
+        left: 58.39vw; /* 724px to vw */
+    }
+
+    .ellipse-18 {
+        top: 24.92vw; /* 309px to vw */
+        left: 71.69vw; /* 889px to vw */
+    }
+
+    .ellipse-19 {
+        top: 24.92vw; /* 309px to vw */
+        left: 45.16vw; /* 560px to vw */
+    }
+
+    .ellipse-20 {
+        top: 11.37vw; /* 141px to vw */
+        left: 73.06vw; /* 906px to vw */
+    }
+
+    .vector-22 {
+        position: absolute;
+        width: 0.65vw; /* 8px to vw */
+        height: 5.00vw; /* 62px to vw */
+        top: 0vw; /* 0px to vw */
+        left: 45.32vw; /* 562px to vw */
+    }
+
+    .vector-23 {
+        position: absolute;
+        width: 0.08vw; /* 1px to vw */
+        height: 5.00vw; /* 62px to vw */
+        top: 0vw; /* 0px to vw */
+        left: 45.56vw; /* 565px to vw */
+    }
+
+    .ellipse-21 {
+        position: absolute;
+        width: 1.37vw; /* 17px to vw */
+        height: 1.37vw; /* 17px to vw */
+        top: 4.92vw; /* 61px to vw */
+        left: 44.92vw; /* 557px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.67vw; /* 8.33px to vw */
+        border: 0.27vw solid; /* 3.33px to vw */
+        border-color: #ffffff;
+        box-shadow: 0px 0.27vw 0.54vw #05254214;
+    }
+
+    .frame-96 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 0vw; /* 0px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .service {
+        position: relative;
+        width: 7.26vw; /* 90px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-97 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 13.23vw; /* 164px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .subscription {
+        position: relative;
+        width: 9.34vw; /* 115.9px to vw */
+        margin-left: -0.10vw; /* -1.29px to vw */
+        margin-right: -0.10vw; /* -1.29px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-98 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 26.53vw; /* 329px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .text-wrapper-52 {
+        position: relative;
+        width: 7.43vw; /* 92.16px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-99 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 1.79vw; /* 22.22px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 39.76vw; /* 493px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .text-wrapper-53 {
+        position: relative;
+        width: 9.57vw; /* 118.7px to vw */
+        margin-left: -0.22vw; /* -2.68px to vw */
+        margin-right: -0.22vw; /* -2.68px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-100 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 53.06vw; /* 658px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .text-wrapper-54 {
+        position: relative;
+        width: 6.02vw; /* 74.71px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.15vw; /* 26.7px to vw */
+    }
+
+    .frame-101 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 66.29vw; /* 822px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .frame-102 {
+        display: flex;
+        width: 7.02vw; /* 87.18px to vw */
+        height: 3.05vw; /* 37.78px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.47vw; /* 5.81px to vw */
+        padding: 0.47vw 1.17vw; /* 5.81px 14.53px to vw */
+        position: relative;
+        background-color: var(--designothererror);
+        border-radius: 3.58vw; /* 44.35px to vw */
+    }
+
+    .ellipse-22 {
+        position: relative;
+        width: 0.94vw; /* 11.62px to vw */
+        height: 0.94vw; /* 11.62px to vw */
+        margin-left: -0.01vw; /* -0.16px to vw */
+        background-color: var(--wireframesbackgroundprimary);
+        border-radius: 0.47vw; /* 5.81px to vw */
+    }
+
+    .text-wrapper-55 {
+        width: fit-content;
+        margin-top: -0.15vw; /* -1.88px to vw */
+        margin-right: -0.01vw; /* -0.16px to vw */
+        font-family: "Inter", Helvetica;
+        font-weight: 600;
+        color: var(--wireframesbackgroundprimary);
+        font-size: 1.64vw; /* 20.3px to vw */
+        line-height: 2.11vw; /* 26.2px to vw */
+        white-space: nowrap;
+        position: relative;
+        letter-spacing: 0;
+    }
+
+    .text-wrapper-56 {
+        width: 6.99vw; /* 86.67px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--designtexttitle);
+        font-size: 1.44vw; /* 17.8px to vw */
+        text-align: center;
+        line-height: 2.15vw; /* 26.7px to vw */
+        position: relative;
+        letter-spacing: 0;
+    }
+    .frame-103 {
+        display: flex;
+        flex-direction: column;
+        width: 11.61vw; /* 144px to vw */
+        height: 11.61vw; /* 144px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.72vw; /* 8.89px to vw */
+        padding: 1.43vw 1.25vw 1.79vw; /* 17.78px 15.56px 22.22px to vw */
+        position: absolute;
+        top: 42.02vw; /* 521px to vw */
+        left: 79.68vw; /* 987px to vw */
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 1.43vw; /* 17.78px to vw */
+    }
+
+    .ellipse-23, .ellipse-24, .ellipse-25, .ellipse-26, .ellipse-27, .ellipse-28, .ellipse-29 {
+        width: 0.89vw; /* 11px to vw */
+        height: 0.89vw; /* 11px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.45vw; /* 5.56px to vw */
+        border: 0.18vw solid; /* 2.22px to vw */
+        border-color: #ffffff;
+        box-shadow: 0 0.18vw 0.36vw #05254214; /* Approximation for box-shadow conversion */
+    }
+
+    .ellipse-23 {
+        top: 41.61vw; /* 516px to vw */
+        left: 5.40vw; /* 67px to vw */
+    }
+
+    .ellipse-24 {
+        top: 41.61vw; /* 516px to vw */
+        left: 45.16vw; /* 560px to vw */
+    }
+
+    .ellipse-25 {
+        top: 41.61vw; /* 516px to vw */
+        left: 31.94vw; /* 396px to vw */
+    }
+
+    .ellipse-26 {
+        top: 41.61vw; /* 516px to vw */
+        left: 18.63vw; /* 231px to vw */
+    }
+
+    .ellipse-27 {
+        top: 41.61vw; /* 516px to vw */
+        left: 58.39vw; /* 724px to vw */
+    }
+
+    .ellipse-28 {
+        top: 41.61vw; /* 516px to vw */
+        left: 71.69vw; /* 889px to vw */
+    }
+
+    .ellipse-29 {
+        top: 41.61vw; /* 516px to vw */
+        left: 84.92vw; /* 1053px to vw */
+    }
+    /*dd section 3*/
+    /*dd section 4*/
+    .frame-104 {
+        position: relative;
+        width: 96.77vw; /* 1200px to vw */
+        height: 58.16vw; /* 721.18px to vw */
+    }
+
+    .overlap-14 {
+        position: relative;
+        height: 58.15vw; /* 721px to vw */
+    }
+
+    .vector-24, .vector-26, .vector-28, .vector-30 {
+        position: absolute;
+        width: 28.71vw; /* 356px to vw */
+        height: 20.00vw; /* 248px to vw */
+        top: 32.10vw; /* 398px to vw */
+    }
+
+    .vector-24 {
+        left: 8.06vw; /* 100px to vw */
+    }
+
+    .vector-26, .vector-30 {
+        left: 59.84vw; /* 742px to vw */
+    }
+
+    .vector-28 {
+        left: 8.31vw; /* 103px to vw */
+    }
+
+    .vector-25, .vector-27, .vector-29, .vector-31 {
+        position: absolute;
+        top: 29.44vw; /* 365px to vw for .vector-25, similar for others */
+    }
+
+    .vector-25 {
+        width: 28.55vw; /* 354px to vw */
+        height: 0.73vw; /* 9px to vw */
+        left: 11.37vw; /* 141px to vw */
+    }
+
+    .vector-27 {
+        width: 29.35vw; /* 364px to vw */
+        height: 0.65vw; /* 8px to vw */
+        left: 58.63vw; /* 727px to vw */
+    }
+
+    .vector-29 {
+        width: 14.44vw; /* 179px to vw */
+        height: 2.34vw; /* 29px to vw */
+        left: 10.73vw; /* 133px to vw */
+    }
+
+    .vector-31 {
+        width: 25.40vw; /* 315px to vw */
+        height: 2.90vw; /* 36px to vw */
+        left: 60.65vw; /* 752px to vw */
+    }
+
+    .frame-105, .frame-106 {
+        display: flex;
+        width: 16.85vw; /* 209px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.42vw; /* 5.19px to vw */
+        padding: 3.43vw 1.53vw 1.91vw; /* 42.56px 18.92px 23.65px to vw */
+        position: absolute;
+        top: 48.23vw; /* 598px to vw */
+        background-color: #ffffff;
+        border-radius: 1.26vw; /* 15.56px to vw */
+    }
+
+    .frame-105 {
+        left: 12.98vw; /* 161px to vw */
+    }
+
+    .frame-106 {
+        left: 65.73vw; /* 815px to vw */
+    }
+
+    .text-wrapper-57, .text-wrapper-58 {
+        position: relative;
+        margin-top: -0.05vw; /* -0.65px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        color: #000000;
+        font-size: 1.52vw; /* 18.9px to vw */
+        text-align: center;
+        letter-spacing: -0.02vw; /* -0.19px to vw */
+        line-height: 2.29vw; /* 28.4px to vw */
+    }
+
+    .text-wrapper-57 {
+        width: 9.72vw; /* 120.59px to vw */
+    }
+
+    .text-wrapper-58 {
+        width: 13.83vw; /* 171.43px to vw */
+    }
+
+    .group-17 {
+        position: absolute;
+        width: 4.60vw; /* 57px to vw */
+        height: 4.60vw; /* 57px to vw */
+        top: 44.52vw; /* 552px to vw */
+        left: 19.03vw; /* 236px to vw */
+    }
+    .group-19 {
+        top: 24.03vw; /* 298px to vw conversion */
+        left: 85.97vw; /* 1066px to vw conversion */
+    }
+    .group-22 {
+        top: 44.52vw; /* Converted from 552px */
+        left: 71.77vw; /* Converted from 890px */
+    }
+
+
+
+    .component-AI-baby-wrapper {
+        position: relative;
+        width: 5.32vw; /* 66px to vw */
+        height: 5.32vw; /* 66px to vw */
+        top: -0.32vw; /* -4px to vw */
+        left: -0.32vw; /* -4px to vw */
+        background-color: #e5ebec;
+        border-radius: 2.64vw; /* 32.78px to vw */
+        border: 0.35vw solid; /* 4.4px to vw */
+        border-color: #ffffff;
+    }
+
+    .component-AI-wrapper {
+        position: relative;
+        width: 5.24vw; /* 65px to vw */
+        height: 5.24vw; /* 65px to vw */
+        top: -0.32vw; /* -4px to vw */
+        left: -0.32vw; /* -4px to vw */
+        background-color: #e5ebec;
+        border-radius: 2.63vw; /* 32.55px to vw */
+        border: 0.34vw solid; /* 4.17px to vw */
+        border-color: #ffffff;
+    }
+
+    .all-in-one-AI-wrapper {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.76vw; /* Converted from 9.46px */
+        padding: 3.05vw; /* Converted from 37.83px */
+        position: absolute;
+        top: 47.10vw; /* Converted from 584px */
+        left: 34.44vw; /* Converted from 427px */
+        background-color: var(--designprimary80-main);
+        border-radius: 8.39vw; /* Converted from 104.04px */
+    }
+
+    .all-in-one-AI {
+        position: relative;
+        width: fit-content;
+        margin-top: -0.10vw; /* Converted from -1.18px */
+        font-family: "SF Pro Display-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 2.48vw; /* Converted from 30.7px */
+        text-align: center;
+        letter-spacing: -0.03vw; /* Converted from -0.31px */
+        line-height: 3.05vw; /* Converted from 37.8px */
+        white-space: nowrap;
+    }
+
+
+    .img-9 {
+        position: absolute;
+        width: 2.66vw; /* 33px to vw */
+        height: 2.66vw; /* 33px to vw */
+        top: 0.97vw; /* 12px to vw */
+        left: 0.97vw; /* 12px to vw */
+    }
+
+    .group-18 {
+        position: absolute;
+        width: 16.85vw; /* 209px to vw */
+        height: 7.02vw; /* 87px to vw */
+        top: 27.74vw; /* 344px to vw */
+        left: 79.92vw; /* 991px to vw */
+    }
+    .frame-107, .frame-108 {
+        position: relative;
+        display: flex;
+        width: 16.85vw; /* 209px to vw */
+        align-items: center;
+        justify-content: center;
+        gap: 0.42vw; /* 5.19px to vw */
+        padding: 3.43vw 2.09vw 1.91vw; /* 42.56px 25.94px 23.65px to vw */
+        background-color: #ffffff;
+        border-radius: 1.53vw; /* 18.92px to vw */
+    }
+
+    .frame-108 {
+        top: 26.21vw; /* 325px to vw */
+        left: 0;
+    }
+
+    .text-wrapper-59, .text-wrapper-60 {
+        position: relative;
+        width: fit-content;
+        margin-top: -0.05vw; /* -0.65px to vw */
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 500;
+        /*color: #000000;*/
+        font-size: 1.52vw; /* 18.9px to vw */
+        text-align: center;
+        letter-spacing: -0.02vw; /* -0.19px to vw */
+        line-height: 1.68vw; /* 20.8px to vw */
+        white-space: nowrap;
+    }
+
+    .group-19, .group-20, .group-21 {
+        position: absolute;
+        width: 4.60vw; /* 57px to vw for group-19 and group-21, different for group-20 */
+        height: 4.60vw; /* 57px to vw for group-19 and group-21, different for group-20 */
+    }
+
+    .group-20 {
+        width: 61.53vw; /* 763px to vw */
+        height: 41.77vw; /* 518px to vw */
+        top: 0;
+        left: 17.74vw; /* 220px to vw */
+    }
+
+    .ellipse-30, .ellipse-31, .ellipse-32, .ellipse-33, .ellipse-34, .ellipse-35, .ellipse-36 {
+        position: absolute;
+        width: 0.97vw; /* 12px to vw */
+        height: 0.97vw; /* 12px to vw */
+        background-color: var(--designprimary-100);
+        border-radius: 0.48vw; /* 5.91px to vw */
+        border: 0.19vw solid; /* 2.36px to vw */
+        border-color: #ffffff;
+        box-shadow: 0 0.19vw 0.38vw #05254214;
+    }
+
+    /* Example for one of the ellipses */
+    .ellipse-30 {
+        top: 51.29vw; /* 636px to vw */
+        left: 82.10vw; /* 1018px to vw */
+    }
+
+    .ellipse-31 {
+        top: 32.90vw; /* 408px to vw */
+        left: 87.82vw; /* 1089px to vw */
+    }
+
+    .ellipse-32 {
+        top: 51.29vw; /* 636px to vw */
+        left: 60.65vw; /* 752px to vw */
+    }
+
+    .ellipse-33 {
+        top: 51.29vw; /* 636px to vw */
+        left: 33.95vw; /* 421px to vw */
+    }
+
+    .ellipse-34 {
+        top: 51.29vw; /* 636px to vw */
+        left: 12.50vw; /* 155px to vw */
+    }
+
+    .ellipse-35 {
+        top: 29.35vw; /* 364px to vw */
+        left: 16.37vw; /* 203px to vw */
+    }
+
+    .ellipse-36 {
+        top: 32.90vw; /* 408px to vw */
+        left: 7.90vw; /* 98px to vw */
+    }
+
+    .group-20 {
+        position: absolute;
+        width: 61.53vw; /* 763px to vw */
+        height: 41.77vw; /* 518px to vw */
+        top: 0;
+        left: 17.74vw; /* 220px to vw */
+    }
+
+    .iphone-pro-max-2, .iphone-pro-max-3 {
+        position: absolute;
+        width: 26.61vw; /* 330px to vw */
+        height: 41.77vw; /* 518px to vw */
+        top: 0;
+    }
+
+    .iphone-pro-max-2 {
+        left: 0;
+    }
+
+    .iphone-pro-max-3 {
+        left: 34.92vw; /* 433px to vw */
+    }
+
+    .iphone-pro-max-4 {
+        position: absolute;
+        width: 18.95vw; /* 235px to vw */
+        height: 38.63vw; /* 479px to vw */
+        top: 2.26vw; /* 28px to vw */
+        left: 21.37vw; /* 265px to vw */
+    }
+
+    .group-21 {
+        position: absolute;
+        width: 4.60vw; /* 57px to vw */
+        height: 4.60vw; /* 57px to vw */
+        top: 24.03vw; /* 298px to vw */
+        left: 6.13vw; /* 76px to vw */
+    }
+    .group-22 {
+        position: absolute;
+        width: 4.60vw; /* 57px converted to vw */
+        height: 4.60vw; /* 57px converted to vw */
+    }
+
+    .overlap-16 {
+        position: relative;
+        width: 5.40vw; /* 67px to vw */
+        height: 5.40vw; /* 67px to vw */
+        top: -0.40vw; /* -5px to vw */
+        left: -0.40vw; /* -5px to vw */
+        background-color: #e5ebec;
+        border-radius: 2.69vw; /* 33.38px to vw */
+        border: 0.40vw solid; /* 5.01px to vw */
+        border-color: #ffffff;
+    }
+    .overlap-15 {
+        position: relative;
+        height: 41.77vw; /* Converted from 518px */
+    }
+
+
+    /*dd section 4*/
+
+    .frame-125 {
+        display: flex;
+        flex-direction: column;
+        width: 96.77vw; /* 1200px / 1240px * 100 */
+        align-items: center;
+        gap: 3.87vw; /* 48px / 1240px * 100 */
+        padding: 4.84vw 6.45vw; /* 60px / 1240px * 100, 80px / 1240px * 100 */
+        position: relative;
+        flex: 0 0 auto;
+        background-color: var(--designbackgroundtertiary);
+        border-radius: 2.42vw; /* 30px / 1240px * 100 */
+    }
+
+    .frame-126 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.87vw; /* Аналогічно перетворено */
+        position: relative;
+        align-self: stretch;
+        width: 100%; /* Відносно батьківського елемента */
+        flex: 0 0 auto;
+    }
+
+    .text-wrapper-67 {
+        margin-top: -0.08vw;
+        font-size: 3.87vw;
+        letter-spacing: -0.0387vw; /* -0.48px / 1240px * 100 */
+        line-height: 5.69vw;
+    }
+    .frame-127 {
+        display: flex;
+        align-items: center;
+        gap: 2.2581vw; /* 28px при 1240px ширині */
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .frame-128 {
+        height: 22.5806vw; /* 280px при 1240px ширині */
+        background-color: #ffffff;
+        border-radius: 2.3845vw; /* 29.52px при 1240px ширині */
+        position: relative;
+        flex: 1;
+        flex-grow: 1;
+        overflow: hidden;
+    }
+
+    .alibabacloud-wrapper {
+        position: relative;
+        width: 39.3548vw; /* 488px при 1240px ширині */
+        height: 36.4516vw; /* 452px при 1240px ширині */
+        background-color: #ffffff;
+        border-radius: 2.3845vw; /* 29.52px при 1240px ширині */
+    }
+
+    .alibabacloud {
+        position: absolute;
+        width: 26.6935vw; /* 331px при 1240px ширині */
+        height: 4.0323vw; /* 50px при 1240px ширині */
+        top: 9.2742vw; /* 115px при 1240px ширині */
+        left: 5.5645vw; /* 69px при 1240px ширині */
+    }
+
+    .frame-129 {
+        height: 22.9032vw; /* 284px при 1240px ширині */
+        position: relative;
+        flex: 1;
+        flex-grow: 1;
+    }
+
+    .frame-130 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3.2258vw; /* 40px при 1240px ширині */
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .frame-131 {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.7742vw; /* 22px при 1240px ширині */
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .frame-132 {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6452vw; /* 8px при 1240px ширині */
+        padding: 1.2903vw 2.5806vw; /* 16px вертикально і 32px горизонтально при 1240px ширині */
+        position: relative;
+        flex: 0 0 auto;
+        background-color: var(--designprimary80-main);
+        border-radius: 80.6452vw; /* Велике значення для створення круглої форми */
+    }
+    .faster-iterations-2 {
+        font-size: 2.58065vw; /* 32px */
+        letter-spacing: 0.0258vw; /* 0.32px */
+        line-height: 3.79032vw; /* 47px */
+    }
+
+    .group-31 {
+        width: 6.37096vw; /* 79px */
+        height: 6.37096vw; /* 79px */
+        border-radius: 3.2258vw; /* 40px */
+    }
+
+    .img-10 {
+        width: 3.87096vw; /* 48px */
+        height: 3.87096vw; /* 48px */
+        top: 1.29032vw; /* 16px */
+        left: 1.20967vw; /* 15px */
+    }
+
+    .group-32 {
+        width: 12.9032vw; /* 160px */
+        height: 6.37096vw; /* 79px */
+        border: 0.16129vw solid; /* 2px */
+        border-radius: 80.64516vw; /* високе значення для круглої форми */
+    }
+
+    .noun-arrow-3 {
+        width: 8.06451vw; /* 100px */
+        height: 6.37vw;
+        top: -0.16129vw; /* -2px */
+        left: 2.33871vw; /* 29px */
+    }
+
+    .frame-133 {
+        padding: 1.29032vw 1.93548vw;
+    }
+    .text-wrapper-68 {
+        font-size: 2.58065vw; /* 32px */
+        letter-spacing: 0.02581vw; /* 0.32px */
+        line-height: 3.79032vw; /* 47px */
+    }
+
+    .group-33 {
+        width: 6.37096vw; /* 79px */
+        height: 6.37096vw; /* 79px */
+        border-radius: 3.2258vw; /* 40px */
+    }
+
+    .cloud-wrapper {
+        width: 3.87096vw; /* 48px */
+        height: 3.87096vw; /* 48px */
+        top: 1.29032vw; /* 16px */
+        left: 1.20967vw; /* 15px */
+    }
+
+    .cloud-2 {
+        width: 3.87096vw; /* 48px */
+        height: 3.87096vw; /* 48px */
+    }
+
+    .frame-134 {
+        padding: 1.29032vw 2.58065vw; /* 16px 32px */
+        border-radius: 80.64516vw; /* високе значення для круглої форми */
+    }
+
+    .frame-135 {
+        padding: 1.29032vw 2.58065vw; /* 16px 32px */
+        border-radius: 80.64516vw; /* високе значення для круглої форми */
+    }
+
+    .group-34 {
+        width: 12.33871vw; /* 153px */
+        height: 6.37096vw; /* 79px */
+        border-radius: 80.64516vw; /* високе значення для круглої форми */
+    }
+
+    .noun-arrow-4 {
+        width: 7.74193vw; /* 96px */
+        left: 2.41935vw; /* 30px */
+        height: 6.37vw;
+    }
+
+    .frame-137 {
+        padding: 1.29032vw 2.58065vw;
+        border-radius: 80.64516vw;
+    }
+
+    .group-35 {
+        width: 6.37096vw;
+        height: 6.37096vw;
+    }
+
+    .group-36 {
+        height: 6.37096vw;
+        border-radius: 3.2258vw;
+    }
+
+    .frame-138 {
+        padding: 1.29032vw 2.58065vw;
+        border: 0.16129vw solid;
+        border-radius: 80.64516vw;
+    }
+
+    .future-proof-2 {
+        font-size: 2.58065vw;
+        letter-spacing: 0.02581vw;
+        line-height: 3.79032vw;
+    }
+    .frame-136 {
+        gap: 1.77vw;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    .frame-75 {
+        width: 67vw;
+        height: 18vw;
+    }
+    .insta-view-3 {
+        top: 1.3vw;
+        left: 17vw;
+        font-size: 12vw;
+        letter-spacing: -0.2vw;
+        line-height: 12vw;
+    }
+    .overlap-13 {
+        width: 46vw;
+        height: 4vw;
+        top: 13vw;
+        left: 18vw;
+    }
+    .smart-safety-and-2 {
+        font-size: 2.3vw;
+    }
+    .text-wrapper-38 {
+        font-size: 2.3vw;
+    }
+    .group-14 {
+        width: 17vw;
+        height: 3.8vw;
+        left: 29.2vw;
+    }
+    .frame-76 {
+        width: 12vw;
+        height: 12vw;
+    }
+    .overlap-group-10 {
+        width: 12vw;
+        height: 12vw;
+    }
+    .frame-77 {
+        width: 8.5vw;
+        height: 6vw;
+        top: 3vw;
+        left: 2vw;
+    }
+    .rectangle-18 {
+        width: 1.6vw;
+        height: 6.4vw;
+        left: 1vw;
+    }
+    .rectangle-19 {
+        width: 1.6vw;
+        height: 6.4vw;
+        left: 3.5vw;
+    }
+    .rectangle-20 {
+        width: 1.6vw;
+        height: 6.4vw;
+        left: 5.7vw;
+    }
+    .our-open-platform-2 {
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: -0.35px;
+        line-height: 40px;
+    }
+
+    .overlap-17 {
+        position: relative;
+        width: 100%;
+        /*height: 668px;*/
+        top: 33px;
+        /*left: -13px;*/
+    }
+    .frame-110 {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        position: static;
+        justify-content: center;
+    }
+
+    .frame-115 {
+        flex-direction: column;
+    }
+    .frame-117, .frame-116, .frame-120{
+        width: 100%;
+        height: 459px;
+        flex: unset;
+        flex-grow: unset;
+    }
+    .frame-117{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .overlap-group-15 {
+        top: 34px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .frame-118 {
+        position: static;
+    }
+    .iphone-pro-max-5{
+        position: static;
+    }
+    .iphone-pro-max-6 {
+        display: none;
+    }
+    .group-29{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 810px){
+    .overlap-25 {
+        width: 100%;
+        height: 73vw;
+    }
+    .studio-display-front-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .studio-display-front-4 {
+        width: 93%;
+        height: auto;
+        top: 4%;
+        left: 3.5%;
+    }
+
+    .frame-122 {
+        position: relative;
+        width: 80.41vw; /* 659.33px */
+        height: 20.44vw; /* 167.62px */
+    }
+
+    .insta-view-4 {
+        top: 0.85vw; /* 7px */
+        left: 20.12vw; /* 165px */
+        font-size: 14.29vw; /* 117.2px */
+        letter-spacing: -0.14vw; /* -1.17px */
+        line-height: 14.57vw;
+    }
+
+    .overlap-26 {
+        width: 37.56vw; /* 308px */
+        height: 4.02vw; /* 33px */
+        top: 16.83vw; /* 138px */
+        left: 23.17vw; /* 190px */
+    }
+
+    .where-AI-meets-2 {
+        top: 0.24vw; /* 2px */
+        font-size: 2.73vw;
+    }
+
+    .text-wrapper-66 {
+        font-size: 2.73vw;
+    }
+
+    .group-30 {
+        width: 4.02vw; /* 33px */
+        height: 4.02vw; /* 33px */
+        left: 9.63vw;
+    }
+
+    .frame-123 {
+        width: 13.90vw;
+        height: 13.90vw;
+    }
+
+    .overlap-group-16 {
+        width: 14.39vw; /* 118px */
+        height: 14.39vw; /* 118px */
+        top: -0.24vw; /* -2px */
+        left: -0.24vw;
+    }
+
+    .frame-124 {
+        width: 10.00vw; /* 82px */
+        height: 7.44vw; /* 61px */
+        top: 3.90vw; /* 32px */
+        left: 2.32vw; /* 19px */
+    }
+
+    .rectangle-29 {
+        width: 1.95vw; /* 16px */
+        height: 7.32vw; /* 60px */
+        left: 1.22vw; /* 10px */
+        border-radius: 4.53vw;
+    }
+
+    .rectangle-30 {
+        width: 1.95vw; /* 16px */
+        height: 7.32vw; /* 60px */
+        left: 4.39vw; /* 36px */
+        border-radius: 4.53vw; /* 37.16px */
+    }
+
+    .rectangle-31 {
+        width: 1.95vw; /* 16px */
+        height: 7.32vw; /* 60px */
+        left: 6.83vw; /* 56px */
+        border-radius: 4.53vw;
+    }
+    .frame-121 {
+        width: 80.49vw;
+        height: 30.98vw;
+        gap: 0.85vw;
+        /*top: 6.59vw;*/
+    }
+    .grow-your-business {
+        margin-top: -0.12vw;
+        font-size: 3.9vw;
+    }
+
+
+
+}
+@media screen and (max-width: 768px){
+
+/*============================
+         section top
+============================*/
+    .section-top{
+        padding: 20px 25px 0;
+    }
+    .section{
+        padding: 60px 25px;
+    }
+    .section-top-boxes {
+        display: flex;
+        gap: 24px;
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+    }
+    .section-top-wrapper {
+        gap: 20px;
+    }
+    .box-1, .box-2{
+        flex: unset;
+        width: 100%;
+        height: 260px;
+    }
+    .box-1-pic {
+        height: 205px;
+    }
+    .box-2-pic {
+        position: relative;
+        top: 77px;
+    }
+    .optimized-throught-2 {
+        font-size: 20px;
+        letter-spacing: -0.32px;
+        line-height: 29.4px;
+    }
+    .frame-81{
+        gap: 20px;
+    }
+    .button-4 {
+        max-width: 470px;
+    }
+/*============================
+      section top end
+============================*/
+
+/*============================
+         section 2
+============================*/
+
+    .our-open-platform-2 {
+        font-size: 26px;
+        text-align: center;
+        letter-spacing: -0.26px;
+        line-height: 32px;
+    }
+
+/*============================
+      section 2 end
+============================*/
+
+/*============================
+         section 3
+============================*/
+
+    .frame-110 {
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 28px;
+    }
+    .frame-111 {
+        order: -1;
+    }
+    .frame-109{
+        height: auto;
+        background: transparent;
+        overflow: visible;
+    }
+    .ellipse-37 {
+        position: absolute;
+        width: 574px;
+        height: 464px;
+        bottom: -332px;
+        top: unset;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .overlap-17 {
+        position: static;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+         height: auto;
+    }
+    .text-wrapper-61{
+        width: 100%;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.26px;
+    }
+    .phone-4{
+        align-self: center;
+    }
+    .unique-UI-instaview-2, .text-wrapper-62, .OTA-platform-2 {
+        position: relative;
+        width: 100%;
+        font-family: "SF Pro Display-Medium", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+
+    .OTA-platform-2 span{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .text-wrapper-63{
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.26px;
+    }
+
+
+/*============================
+      section 3 end
+============================*/
+
+    .iphone-pro-max-5 {
+        position: absolute;
+        /*max-width: 195px;*/
+        width: 100%;
+        /*height: 368px;*/
+        top: -68px;
+        left: 0;
+    }
+    .frame-117, .frame-116, .frame-120 {
+        height: 260px;
+    }
+    .text-wrapper-64{
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 32px; /* 123.077% */
+        letter-spacing: -0.26px;
+    }
+    .text-wrapper-65{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    .huge-icon-time-and-2{
+        width: 100%;
+        max-width: 96px;
+        height: 96px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .frame-113 {
+        position: relative;
+        width: 84.13vw; /* 387px / 460px * 100 */
+        height: 46.30vw; /* 213px / 460px * 100 */
+        border-radius: 4.35vw; /* 20px / 460px * 100 */
+        overflow: hidden;
+    }
+
+    .overlap-18 {
+        position: relative;
+        width: 103.04vw; /* 474px / 460px * 100 */
+        height: 67.61vw; /* 311px / 460px * 100 */
+        top: -11.96vw; /* -55px / 460px * 100 */
+        left: -9.57vw; /* -44px / 460px * 100 */
+    }
+
+    .rectangle-21 {
+        width: 83.91vw; /* 386px / 460px * 100 */
+        height: 67.61vw; /* 311px / 460px * 100 */
+        left: 9.57vw; /* 44px / 460px * 100 */
+        border-radius: 6.19vw; /* 28.49px / 460px * 100 */
+        position: absolute;
+        top: 0;
+        background-color: #d9d9d9;
+    }
+
+    .just-placed-baby-in-4 {
+        width: 48.48vw; /* 223px / 460px * 100 */
+        height: 103.04vw; /* 474px / 460px * 100 */
+        left: 27.17vw; /* 125px / 460px * 100 */
+        position: absolute;
+        top: -15.22vw; /* -70px / 460px * 100 */
+        background-color: var(--designbackgroundprimary);
+        overflow: hidden;
+        transform: rotate(-90deg);
+    }
+    .overlap-19 {
+        position: relative;
+        width: 53.48vw; /* 246px */
+        height: 103.04vw; /* 474px */
+        left: -4.57vw; /* -21px */
+    }
+
+    .overlap-group-12 {
+        width: 46.3vw; /* 213px */
+        height: 84.13vw; /* 387px */
+        top: 9.57vw; /* 44px */
+        left: 6.96vw; /* 32px */
+    }
+
+    .image-6 {
+        height: 46.3vw; /* 213px */
+        top: 18.91vw; /* 87px */
+        left: -18.91vw;
+        width: 84.13vw;
+    }
+
+    .group-23 {
+        width: 23.91vw; /* 110px */
+        height: 10.43vw; /* 48px */
+        top: 36.74vw; /* 169px */
+        left: 25.87vw;
+    }
+
+    .group-24 {
+        width: 23.91vw; /* 110px */
+        height: 10.43vw; /* 48px */
+        top: 36.74vw; /* 169px */
+        left: 2.83vw;
+    }
+
+    .rectangle-22 {
+        width: 53.48vw; /* 246px */
+        height: 17.17vw;
+    }
+
+    .rectangle-23 {
+        width: 53.48vw; /* 246px */
+        height: 17.17vw; /* 79px */
+        top: 85.65vw;
+    }
+
+    .overlap-20 {
+        width: 103.26vw; /* 475px */
+        height: 67.83vw; /* 312px */
+        top: -11.96vw; /* -55px */
+        left: -9.57vw; /* -44px */
+    }
+
+    .rectangle-24 {
+        width: 84.13vw; /* 387px */
+        height: 67.83vw; /* 312px */
+        left: 9.57vw; /* 44px */
+        border-radius: 6.21vw;
+    }
+    .just-placed-baby-in-5 {
+        width: 48.70vw; /* 224px */
+        height: 103.26vw; /* 475px */
+        left: 27.17vw;
+        top: -15.22vw;
+    }
+
+    .overlap-21 {
+        width: 46.09vw; /* 212px */
+        height: 84.13vw; /* 387px */
+        top: 9.57vw; /* 44px */
+        left: 7.17vw; /* 33px */
+    }
+
+    .image-7 {
+        height: 46.09vw; /* 212px */
+        top: 18.91vw; /* 87px */
+        left: -18.91vw;
+        width: 84.13vw; /* 387px */
+        transform: rotate(90deg);
+    }
+
+    .group-25 {
+        width: 30.43vw; /* 140px */
+        height: 27.61vw; /* 127px */
+        top: 30.43vw; /* 140px */
+        left: 15.65vw; /* 72px */
+    }
+
+    .overlap-group-13 {
+        position: relative;
+        width: 31.09vw; /* 143px */
+        height: 27.17vw; /* 125px */
+        top: -1.30vw; /* -6px */
+    }
+
+    .group-26 {
+        position: absolute;
+        width: 29.78vw; /* 137px */
+        height: 25.65vw;
+        left: 1.30vw; /* 6px */
+    }
+
+    .ellipse-38 {
+        width: 25.87vw; /* 119px */
+        height: 25.87vw; /* 119px */
+        top: 1.30vw;
+        border-radius: 12.94vw; /* 59.55px */
+        border: 0.25vw solid;
+    }
+
+    .rectangle-25 {
+        width: 53.48vw; /* 246px */
+        height: 17.17vw; /* 79px */
+        top: 85.87vw;
+    }
+
+    .overlap-22 {
+        width: 103.70vw; /* 477px */
+        height: 67.83vw; /* 312px */
+        top: -11.96vw; /* -55px */
+        left: -7.83vw; /* -36px */
+    }
+
+    .rectangle-26 {
+        width: 84.13vw; /* 387px */
+        height: 67.83vw; /* 312px */
+        left: 7.83vw; /* 36px */
+        border-radius: 6.21vw;
+    }
+
+    .just-placed-baby-in-6 {
+        width: 48.91vw; /* 225px */
+        height: 103.70vw; /* 477px */
+        left: 27.39vw;
+        top: -15.22vw;
+    }
+
+    .overlap-23 {
+        width: 55.65vw; /* 256px */
+        height: 103.70vw; /* 477px */
+        left: -4.78vw; /* -22px */
+    }
+
+    .overlap-24 {
+        position: absolute;
+        width: 55.65vw; /* 256px */
+        height: 91.96vw;
+    }
+
+    .image-8 {
+        height: 46.09vw; /* 212px */
+        top: 26.74vw; /* 123px */
+        left: -11.52vw;
+        width: 84.13vw;
+    }
+
+    .rectangle-27 {
+        width: 53.70vw; /* 247px */
+        height: 17.39vw;
+    }
+
+    .group-27 {
+        width: 37.83vw; /* 174px */
+        height: 36.52vw; /* 168px */
+        top: 10.00vw; /* 46px */
+        left: 17.83vw; /* 82px */
+    }
+
+    .overlap-group-14 {
+        width: 38.04vw; /* 175px */
+        height: 38.04vw; /* 175px */
+        top: -0.87vw; /* -4px */
+        left: 0.65vw; /* 3px */
+    }
+
+    .ellipse-39 {
+        width: 28.48vw; /* 131px */
+        height: 28.48vw; /* 131px */
+        top: 5.65vw; /* 26px */
+        left: 4.13vw; /* 19px */
+    }
+
+    .ellipse-40 {
+        width: 28.70vw; /* 132px */
+        height: 28.70vw; /* 132px */
+        top: 4.57vw; /* 21px */
+        left: 4.57vw; /* 21px */
+        border-radius: 14.35vw;
+        border: 1.20vw dashed;
+    }
+
+    .group-28 {
+        width: 23.91vw; /* 110px */
+        height: 22.39vw; /* 103px */
+        top: 17.17vw; /* 79px */
+        left: 24.57vw;
+    }
+
+    .rectangle-28 {
+        width: 53.70vw; /* 247px */
+        height: 17.39vw; /* 80px */
+        top: 86.30vw;
+    }
+    .frame-121 {
+        gap: 5.85vw;
+    }
+
+}
