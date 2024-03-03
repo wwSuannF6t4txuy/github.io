@@ -3549,7 +3549,6 @@ section{
 }
 
 .button-5 {
-    all: unset;
     box-sizing: border-box;
     max-width: 335px;
     width: 100%;
@@ -3841,7 +3840,7 @@ section{
     max-width: 600px;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 12px;
     padding: 32px;
     position: relative;
     background-color: var(--designprimary80-main);
@@ -3897,7 +3896,6 @@ section{
 }
 
 .button-6 {
-    all: unset;
     box-sizing: border-box;
     max-width: 335px;
     width: 100%;
@@ -3907,10 +3905,11 @@ section{
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 0px 32px;
+    padding: 0 32px;
     position: relative;
     border-radius: 44px;
     overflow: hidden;
+    margin-top: 13px;
 }
 
 .text-9 {
@@ -3936,4 +3935,50 @@ section{
     letter-spacing: var(--large-med-18-letter-spacing);
     line-height: var(--large-med-18-line-height);
     font-style: var(--large-med-18-font-style);
+}
+/*form*/
+
+.form-item{
+    display: flex;
+    align-items: center;
+    border-radius: 44px;
+    border: 2px solid #FFF;
+    width: 100%;
+}
+textarea.form-item{
+    border-radius: 20px;
+}
+.form-item input, textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 15px 8px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.form-item input, textarea{
+    outline: none;
+}
+.form-item input:focus::placeholder, textarea:focus::placeholder{
+    font-size: 0;
+    transform: translateY(-3px);
+}
+.form-item input::placeholder, textarea::placeholder{
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    transition: .2s;
+}
+textarea{
+    padding-left: 16px;
+    min-height: 120px;
+}
+.form-item img{
+    margin-right: 8px;
+    margin-left: 16px;
+}
+.button-6{
+    border: none;
 }

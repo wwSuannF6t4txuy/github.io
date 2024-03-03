@@ -17,6 +17,13 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+.btn{
+  transition: .2s;
+  cursor: pointer;
+}
+.btn:hover{
+  transform: translateY(-3px);
+}
 @font-face {
   font-family: "Gilroy-Medium";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/635131b13f27792e46569104/fonts/gilroy-medium.ttf")

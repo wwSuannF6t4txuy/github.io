@@ -5,12 +5,16 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         padding: 15px 60px;
-        position: relative;
         flex: 0 0 auto;
         background-color: var(--designbackgroundtertiary);
         border-radius: 56px;
         gap: 5px;
         margin: 0 auto;
+
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
     }
 
     .navbar-item {
@@ -32,6 +36,10 @@
     .navbar-item a:hover{
         color: rgba(0, 0, 0, 0.6);
     }
+    .section-top-wrapper{
+        margin-top: 90px;
+    }
+
 }
 
 @media screen and (max-width: 1300px){
@@ -2775,4 +2783,16 @@
         font-weight: 400;
         line-height: 24px;
     }
+    .frame-175{
+        width: 100%;
+        text-align: center;
+    }
+    .text-wrapper-75{
+        max-width: 100%;
+        width: 100%;
+    }
+    .logo-black-3{
+        margin: 0 auto;
+    }
+    .section-10{}
 }
