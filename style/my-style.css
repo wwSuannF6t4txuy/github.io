@@ -3896,6 +3896,15 @@ section{
 }
 
 .button-6 {
+    font-family: var(--header-h7-semi-22-font-family);
+    font-weight: var(--header-h7-semi-22-font-weight);
+    color: var(--designprimary80-main);
+    font-size: var(--header-h7-semi-22-font-size);
+    letter-spacing: var(--header-h7-semi-22-letter-spacing);
+    line-height: var(--header-h7-semi-22-line-height);
+    position: relative;
+    white-space: nowrap;
+    font-style: var(--header-h7-semi-22-font-style);
     box-sizing: border-box;
     max-width: 335px;
     width: 100%;
@@ -3906,23 +3915,9 @@ section{
     justify-content: center;
     gap: 8px;
     padding: 0 32px;
-    position: relative;
     border-radius: 44px;
     overflow: hidden;
     margin-top: 13px;
-}
-
-.text-9 {
-    font-family: var(--header-h7-semi-22-font-family);
-    font-weight: var(--header-h7-semi-22-font-weight);
-    color: var(--designprimary80-main);
-    font-size: var(--header-h7-semi-22-font-size);
-    letter-spacing: var(--header-h7-semi-22-letter-spacing);
-    line-height: var(--header-h7-semi-22-line-height);
-    position: relative;
-    width: fit-content;
-    white-space: nowrap;
-    font-style: var(--header-h7-semi-22-font-style);
 }
 
 .text-wrapper-33 {
