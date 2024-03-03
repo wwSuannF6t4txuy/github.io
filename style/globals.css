@@ -21,6 +21,12 @@ a {
   transition: .2s;
   cursor: pointer;
 }
+.frame-10 a{
+  transition: .2s;
+}
+.frame-10 a:hover{
+  color: rgba(0, 0, 0, 0.58);
+}
 .btn:hover{
   transform: translateY(-3px);
 }
