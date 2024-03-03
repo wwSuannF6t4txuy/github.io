@@ -16,6 +16,7 @@
         transform: translateX(-50%);
         z-index: 10;
         transition: .2s;
+        width: 95%;
     }
     .fixed-header{
         transform: translateY(-30px) translateX(-50%);
