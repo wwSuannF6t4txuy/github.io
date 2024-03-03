@@ -867,15 +867,21 @@
     </section>
   <script>
     // Fixed sticky header
-    window.addEventListener('scroll', function() {
-      if (window.scrollY >= 300) {
-        document.querySelector('nav').classList.add('fixed-header');
-        document.querySelector('nav div').classList.add('visible-title');
-      } else {
-        document.querySelector('nav').classList.remove('fixed-header');
-        document.querySelector('nav div').classList.remove('visible-title');
-      }
+    document.addEventListener('DOMContentLoaded', function() {
+      window.addEventListener('scroll', function() {
+        const nav = document.querySelector('.navbar');
+        const navDiv = document.querySelector('.navbar div');
+
+        if (window.scrollY >= 300) {
+          if (nav) nav.classList.add('fixed-header');
+          if (navDiv) navDiv.classList.add('visible-title');
+        } else {
+          if (nav) nav.classList.remove('fixed-header');
+          if (navDiv) navDiv.classList.remove('visible-title');
+        }
+      });
     });
+
 
     // Smooth scroll to anchor
     const anchors = document.querySelectorAll('a[href*="#"]')
