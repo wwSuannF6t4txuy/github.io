@@ -2392,11 +2392,12 @@
 
     .iphone-pro-max-5 {
         position: absolute;
-        /*max-width: 195px;*/
+        max-width: 195px;
         width: 100%;
-        /*height: 368px;*/
+        /* height: 368px; */
         top: -68px;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .frame-117, .frame-116, .frame-120 {
         height: 260px;
