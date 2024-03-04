@@ -1674,6 +1674,7 @@
     }
     .frame-118 {
         position: static;
+        transform: unset;
     }
     .iphone-pro-max-5{
         position: static;

@@ -2288,7 +2288,8 @@ section{
     gap: 32px;
     position: relative;
     top: 47px;
-    left: 125px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .overlap-group-15 {
     position: relative;
@@ -2362,7 +2363,8 @@ section{
 
 .text-wrapper-65 {
     position: relative;
-    width: 216px;
+    width: 100%;
+    text-align: center;
     font-family: "SF Pro Display-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
