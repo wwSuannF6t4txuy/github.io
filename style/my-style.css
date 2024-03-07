@@ -207,8 +207,15 @@ section{
 }
 
 .text-wrapper-40 {
+    position: relative;
     color: #378dfa;
     letter-spacing: -0.1px;
+    margin: 0 12px;
+}
+.section-top_mask-img{
+    position: absolute;
+    left: -11px;
+    top: -3px;
 }
 .button-4 {
     width: 100%;
@@ -1721,27 +1728,26 @@ section{
     position: relative;
     height: 518px;
 }
+.iphone-pro-max-3, .iphone-pro-max-2{
+    position: absolute;
+    width: 331px;
+    height: 518px;
+}
 
 .iphone-pro-max-2 {
-    position: absolute;
-    width: 330px;
-    height: 518px;
     top: 0;
     left: 0;
 }
 
 .iphone-pro-max-3 {
-    position: absolute;
-    width: 330px;
-    height: 518px;
     top: 0;
     left: 433px;
 }
 
 .iphone-pro-max-4 {
     position: absolute;
-    width: 235px;
-    height: 479px;
+    width: 236px;
+    height: 480px;
     top: 28px;
     left: 265px;
 }
@@ -1775,11 +1781,14 @@ section{
 }
 
 .frame-109 {
-    height: 346px;
+    display: flex;
+    justify-content: center;
+    /*height: 346px;*/
     background-color: #ffffff;
     position: relative;
     border-radius: 30px;
     overflow: hidden;
+    padding: 52px 20px;
 }
 
 .overlap-17 {
@@ -1792,17 +1801,65 @@ section{
 
 .frame-110 {
     display: inline-flex;
-    align-items: flex-start;
-    gap: 100px;
-    position: absolute;
+    align-items: center;
+    gap: 138px;
+    /*position: absolute;*/
     top: 0;
     left: 221px;
 }
-
+.phone-4-wrap {
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    top: 7px;
+    left: 9px;
+    height: 346px;
+    border-radius: 17px;
+    width: 156px;
+    background: black;
+    display: flex;
+}
 .phone-4 {
     position: relative;
-    width: 242.79px;
-    height: 313px;
+    width: 174px;
+    height: 360px;
+    /*background: url("../img/phone-1.png") no-repeat;*/
+    /*background-size: contain;*/
+    overflow: hidden;
+}
+
+.phone-4_pic{
+    width: 100%;
+    /*position: absolute;*/
+    z-index: 2;
+    top: 5px;
+    left: 5px;
+    height: 346px;
+    /*transform: translateX(-100%);*/
+    transition: 0.7s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    /*animation: scrollImages  12s infinite;*/
+}
+.phone-4_pic-mask{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 174px;
+    height: 360px;
+}
+.phone-4_caply{
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    width: 46px;
+    height: 17px;
+    border-radius: 30px;
+    z-index: 3;
+}
+.video{
+    height: inherit;
 }
 
 .frame-111 {
@@ -2456,9 +2513,9 @@ section{
 }
 
 .group-30 {
-    width: 33px;
+    width: 41px;
     height: 33px;
-    left: 86px;
+    left: 84px;
     position: absolute;
     top: 0;
 }
@@ -3028,7 +3085,8 @@ section{
 
 .text-wrapper-72 {
     position: relative;
-    /*width: 404px;*/
+    max-width: 404px;
+    width: 100%;
     font-family: var(--large-reg-18-font-family);
     font-weight: var(--large-reg-18-font-weight);
     color: var(--designtexttitle);
@@ -3698,7 +3756,7 @@ section{
 
 .frame-170 {
     position: relative;
-    height: 240px;
+    height: 160px;
     background-color: var(--designbackgroundtertiary);
     border-radius: 30px;
     overflow: hidden;
@@ -3822,7 +3880,7 @@ section{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 12px;
     position: relative;
     flex: 0 0 auto;
 }
@@ -3843,7 +3901,7 @@ section{
     align-items: center;
     justify-content: center;
     gap: 12px;
-    padding: 32px;
+    padding: 50px 32px;
     position: relative;
     background-color: var(--designprimary80-main);
     border-radius: 32px;
@@ -5200,7 +5258,7 @@ textarea{
 .frame-10 {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 12px;
     display: inline-flex;
     position: relative;
     flex: 0 0 auto;
@@ -5270,4 +5328,67 @@ textarea{
     background-color: var(--designprimary80-main);
     border-radius: 24px;
     overflow: hidden;
+}
+
+.grow-busines{
+
+}
+.grow-busines_wrap{
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+.grow-block, .grow-busines_bot{
+    background: rgba(240, 244, 244, 1);
+    border-radius: 30px;
+}
+.grow-block{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 584px;
+    text-align: center;
+    padding: 32px 24px;
+}
+.grow-block h3{
+    color: black;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    max-width: 90%;
+}
+.grow-block p{
+    font-family: SF Pro Display, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 520px;
+}
+.grow-block img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.grow-busines_bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 60px 80px;
+    text-align: center;
+}
+.grow-busines_bot img{}
+.grow-busines_bot h4{
+    max-width: 670px;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
 }

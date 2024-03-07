@@ -30,6 +30,19 @@ a {
 .btn:hover{
   transform: translateY(-3px);
 }
+
+@keyframes scrollImages {
+  0%, 100% {
+    transform: translateX(0%);
+  }
+  33% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+}
+
 @font-face {
   font-family: "Gilroy-Medium";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/635131b13f27792e46569104/fonts/gilroy-medium.ttf")
