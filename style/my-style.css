@@ -43,6 +43,10 @@ section{
     width: 600px;
     height: 156px;
 }
+.frame-75_pic{
+    width: 100%;
+    max-width: 769px;
+}
 .insta-view-3 {
     top: 10px;
     left: 150px;
@@ -212,6 +216,16 @@ section{
     letter-spacing: -0.1px;
     margin: 0 12px;
 }
+.ai{
+    display: inline-flex;
+    align-self: center;
+
+}
+.ai .section-top_mask-img{
+    width: 60px;
+    top: 7px;
+    left: -9px;
+}
 .section-top_mask-img{
     position: absolute;
     left: -11px;
@@ -270,6 +284,9 @@ section{
     text-align: center;
     letter-spacing: -0.48px;
     line-height: 70.6px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .text-wrapper-41 {
     color: #1c1d21;
@@ -2457,7 +2474,7 @@ section{
     width: 660px;
     height: 254px;
     align-items: center;
-    gap: 48px;
+    gap: 24px;
     position: relative;
     top: 54px;
 }
@@ -2467,6 +2484,10 @@ section{
     position: relative;
     width: 659.33px;
     height: 167.62px;
+}
+.frame-122_pic{
+    width: 100%;
+    max-width: 627px;
 }
 
 .insta-view-4 {
@@ -2483,17 +2504,17 @@ section{
 }
 
 .overlap-26 {
-    position: absolute;
-    width: 308px;
-    height: 33px;
-    top: 138px;
-    left: 190px;
+    /*position: absolute;*/
+    /*width: 308px;*/
+    /*height: 33px;*/
+    /*top: 138px;*/
+    /*left: 190px;*/
 }
 
 .where-AI-meets-2 {
-    position: absolute;
-    top: 2px;
-    left: 0;
+    /*position: absolute;*/
+    /*top: 2px;*/
+    /*left: 0;*/
     font-family: "Work Sans", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -2502,6 +2523,7 @@ section{
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    width: 100%;
 }
 
 .text-wrapper-66 {
@@ -3082,10 +3104,13 @@ section{
     white-space: nowrap;
     font-style: var(--header-h5-semi-32-font-style);
 }
+.text-wrapper-71_aitext{
+    color: #388EFA;
+}
 
 .text-wrapper-72 {
     position: relative;
-    max-width: 404px;
+    max-width: 252px;
     width: 100%;
     font-family: var(--large-reg-18-font-family);
     font-weight: var(--large-reg-18-font-weight);
@@ -3100,6 +3125,7 @@ section{
 .text-wrapper-73 {
     position: relative;
     /*width: 436px;*/
+    max-width: 270px;
     font-family: var(--large-reg-18-font-family);
     font-weight: var(--large-reg-18-font-weight);
     color: var(--designtexttitle);
@@ -3111,7 +3137,8 @@ section{
 }
 
 .text-wrapper-74 {
-    align-self: stretch;
+    max-width: 430px;
+    align-self: center;
     font-family: var(--large-reg-18-font-family);
     font-weight: var(--large-reg-18-font-weight);
     font-size: var(--large-reg-18-font-size);
@@ -3261,7 +3288,7 @@ section{
     height: 46px;
     top: -1px;
     left: -1px;
-    background-image: url(../img/group-1171274664-2.png);
+    background-image: url(../img/icon-007.svg);
     background-size: 100% 100%;
 }
 
@@ -3309,7 +3336,7 @@ section{
     gap: 2px;
     position: absolute;
     top: 0;
-    left: 262px;
+    left: 272px;
     flex-direction: column;
     align-items: center;
 }
@@ -3321,7 +3348,8 @@ section{
     gap: 2px;
     position: absolute;
     top: 0;
-    left: 455px;
+    /*left: 455px;*/
+    left: 486px;
 }
 
 .frame-156 {
@@ -3331,7 +3359,7 @@ section{
     gap: 2px;
     position: absolute;
     top: 0;
-    left: 640px;
+    left: 651px;
 }
 
 .group-38 {
@@ -3477,7 +3505,7 @@ section{
     align-items: center;
     justify-content: center;
     gap: 12px;
-    padding: 20px 24px;
+    padding: 20px 5.5vw;
     position: relative;
     background-color: #ffffff;
     border-radius: 28px;
@@ -4041,6 +4069,7 @@ textarea{
     position: relative;
     width: fit-content;
     margin-top: -1px;
+    text-align: center;
     font-family: var(--header-h2-semi-48-font-family);
     font-weight: var(--header-h2-semi-48-font-weight);
     color: var(--designtexttitle);
@@ -5368,7 +5397,7 @@ textarea{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    max-width: 520px;
+    max-width: 407px;
 }
 .grow-block img{
     width: 100%;
