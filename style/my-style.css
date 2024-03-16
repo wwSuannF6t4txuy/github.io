@@ -291,6 +291,7 @@ section{
 .text-wrapper-41 {
     color: #1c1d21;
     letter-spacing: -0.23px;
+    font-weight: 600;
 }
 
 .text-wrapper-42 {
@@ -1892,7 +1893,7 @@ section{
     position: relative;
     width: fit-content;
     font-family: "SF Pro Display-Semibold", Helvetica;
-    font-weight: 400;
+    font-weight: 600;
     color: #000000;
     font-size: 32px;
     text-align: center;
@@ -1912,7 +1913,7 @@ section{
     line-height: 24px;
 }
 .OTA-platform-2 span{
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
 
 .text-wrapper-62 {
@@ -3047,7 +3048,7 @@ section{
     font-size: var(--header-h5-semi-32-font-size);
     text-align: center;
     letter-spacing: var(--header-h5-semi-32-letter-spacing);
-    line-height: var(--header-h5-semi-32-line-height);
+    line-height: var(--header-h5-semi-32-line-height);;
     font-style: var(--header-h5-semi-32-font-style);
 }
 
@@ -3099,7 +3100,7 @@ section{
     width: fit-content;
     margin-top: -1px;
     font-family: var(--header-h5-semi-32-font-family);
-    font-weight: var(--header-h5-semi-32-font-weight);
+    font-weight: 600;
     color: var(--designtexttitle);
     white-space: nowrap;
     font-style: var(--header-h5-semi-32-font-style);
@@ -4018,6 +4019,7 @@ section{
     letter-spacing: var(--large-med-18-letter-spacing);
     line-height: var(--large-med-18-line-height);
     font-style: var(--large-med-18-font-style);
+    max-width: 263px;
 }
 /*form*/
 
