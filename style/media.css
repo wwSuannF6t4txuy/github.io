@@ -2,7 +2,7 @@
     .navbar {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
         padding: 15px 60px;
         flex: 0 0 auto;
